@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{D089DB1D-0A45-437C-8D15-7D9B2D7F5236}|Default">
+  <MonoDevelop.Ide.ItemProperties.RedisExchange PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.ItemProperties.InMemory PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/barkinkizilkaya/Projects/RedisCache/InMemory/Controllers/MemoryController.cs" relfile="InMemory/Controllers/MemoryController.cs" line="26" column="1" />
+      <Breakpoint file="/Users/barkinkizilkaya/Projects/RedisCache/InMemory/Controllers/MemoryController.cs" relfile="InMemory/Controllers/MemoryController.cs" line="41" column="1" />
+      <Breakpoint file="/Users/barkinkizilkaya/Projects/RedisCache/DistrubutedCacheRedis/Controllers/RedisController.cs" relfile="DistrubutedCacheRedis/Controllers/RedisController.cs" line="51" column="1" />
+      <Breakpoint file="/Users/barkinkizilkaya/Projects/RedisCache/DistrubutedCacheRedis/Controllers/RedisController.cs" relfile="DistrubutedCacheRedis/Controllers/RedisController.cs" line="41" column="1" />
+      <Breakpoint file="/Users/barkinkizilkaya/Projects/RedisCache/DistrubutedCacheRedis/Controllers/RedisController.cs" relfile="DistrubutedCacheRedis/Controllers/RedisController.cs" line="59" column="1" />
+      <Breakpoint file="/Users/barkinkizilkaya/Projects/RedisCache/RedisExchange/Controllers/ListOperationsController.cs" relfile="RedisExchange/Controllers/ListOperationsController.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="RedisExchange/Program.cs" Line="18" Column="1" />
+      <File FileName="RedisExchange/Controllers/StringOperationsController.cs" Line="21" Column="10" />
+      <File FileName="RedisExchange/Services/RedisService.cs" Line="28" Column="1" />
+      <File FileName="InMemory/Controllers/MemoryController.cs" Line="1" Column="1" />
+      <File FileName="InMemory/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="DistrubutedCacheRedis/Controllers/RedisController.cs" Line="1" Column="1" />
+      <File FileName="RedisExchange/Controllers/ListOperationsController.cs" Line="23" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RedisCache" expanded="True" selected="True">
+            <Node name="RedisExchange" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>result.ToLocalTime()</Value>
+          <Value>DateTime.Now.ToLongTimeString()</Value>
+          <Value>value</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DistrubutedCacheRedis PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

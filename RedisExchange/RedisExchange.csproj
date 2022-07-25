@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="StackExchange.Redis" />
+    <None Remove="Services\" />
+    <None Remove="Views\StringOperations\" />
+    <None Remove="Views\SortedSetOperations\" />
+    <None Remove="Views\SetOperations\" />
+    <None Remove="Views\ListOperations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.48" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Views\StringOperations\" />
+    <Folder Include="Views\SortedSetOperations\" />
+    <Folder Include="Views\SetOperations\" />
+    <Folder Include="Views\ListOperations\" />
+  </ItemGroup>
+</Project>
